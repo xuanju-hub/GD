@@ -1,7 +1,4 @@
-# SmartGD: A GAN-Based Graph Drawing Framework for Diverse Aesthetic Goals
-This repo contains a simple demonstration for the IEEE TVCG‘2024 paper entitled "[SmartGD: A GAN-Based Graph Drawing Framework for Diverse Aesthetic Goals](https://ieeexplore.ieee.org/document/10224347)". It includes:
 
-* a dataloader for Rome Graphs dataset,
 * a basic implementation of SmartGD model,
 * a generator checkpoint trained for Stress majorization,
 * and a demo notebook for model traning and evaluation.
@@ -31,15 +28,4 @@ The default hyper-parameters of the model have been configured to reproduce the 
 
 ## Citation
 If you used our code or find our work useful in your research, please consider citing:
-```
-@ARTICLE{smartgd,
-  author={Wang, Xiaoqi and Yen, Kevin and Hu, Yifan and Shen, Han-Wei},
-  journal={IEEE Transactions on Visualization and Computer Graphics}, 
-  title={SmartGD: A GAN-Based Graph Drawing Framework for Diverse Aesthetic Goals}, 
-  year={2024},
-  volume={30},
-  number={8},
-  pages={5666-5678},
-  keywords={Layout;Graph drawing;Deep learning;Generative adversarial networks;Stress;Generators;Training data;Deep learning for visualization;generative adversarial networks;graph visualization},
-  doi={10.1109/TVCG.2023.3306356}}
-```
+
