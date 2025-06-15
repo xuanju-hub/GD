@@ -3,3 +3,4 @@
 __pycache__/
 assets/rome_layouts
 ckpts-xin/*
+ckpts-efi/*
