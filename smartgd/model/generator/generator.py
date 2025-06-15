@@ -9,7 +9,6 @@ from typing import Optional
 
 from torch import nn, FloatTensor, LongTensor
 
-
 @define(kw_only=True, eq=False, repr=False, slots=False)
 class Generator(nn.Module):
     @dataclass(kw_only=True)

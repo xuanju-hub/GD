@@ -11,9 +11,9 @@ from smartgd.metrics import Stress, Crossings
 from smartgd.transformations import Compose, Center, NormalizeRotation, RescaleByStress
 from smartgd.criteria import RGANCriterion
 
-model_name = "ckpts-xin"
+model_name = "ckpts-efi"
 batch_size = 16
-start_epoch = 1492
+start_epoch = 188
 max_epoch = 2000
 max_lr = 0.01
 min_lr = 0.0001
@@ -80,7 +80,6 @@ tie_break_metrics = {
 criterion = RGANCriterion()
 gen_optim = torch.optim.AdamW(generator.parameters(), lr=max_lr)
 dis_optim = torch.optim.AdamW(discriminator.parameters(), lr=max_lr)
-
 
 if start_epoch:
     generator.load_state_dict(torch.load(f"./{model_name}/generator_{start_epoch-1}.pt"))
